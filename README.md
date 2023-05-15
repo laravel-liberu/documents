@@ -7,9 +7,9 @@
 [![Total Downloads](https://poser.pugx.org/laravel-enso/documents/downloads)](https://packagist.org/packages/laravel-enso/documents)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/documents/version)](https://packagist.org/packages/laravel-enso/documents)
 
-Documents Manager for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Documents Manager for [Laravel Liberu](https://github.com/laravel-enso/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-enso/Liberu) ecosystem.
 
 There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
 
