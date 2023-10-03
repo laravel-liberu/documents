@@ -10,7 +10,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('documents', function (Blueprint $table) {
-            $table->increments('id');
+            $table->id();
 
             $table->morphs('documentable');
 
