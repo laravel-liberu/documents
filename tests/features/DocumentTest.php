@@ -28,7 +28,7 @@ class DocumentTest extends TestCase
             ->actingAs(User::first());
 
         $this->testModel = $this->model();
-        $this->testFolder = Config::get('enso.files.testingFolder');
+        $this->testFolder = Config::get('liberu.files.testingFolder');
     }
 
     public function tearDown(): void

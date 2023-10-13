@@ -27,7 +27,7 @@ trait Documentable
 
     private function attemptDocumentableDeletion()
     {
-        $shouldRestrict = Config::get('enso.documents.onDelete') === 'restrict'
+        $shouldRestrict = Config::get('liberu.documents.onDelete') === 'restrict'
             && $this->documents()->exists();
 
         if ($shouldRestrict) {
@@ -37,7 +37,7 @@ trait Documentable
 
     private function cascadeDocumentDeletion()
     {
-        if (Config::get('enso.documents.onDelete') === 'cascade') {
+        if (Config::get('liberu.documents.onDelete') === 'cascade') {
             $this->documents()->delete();
         }
     }

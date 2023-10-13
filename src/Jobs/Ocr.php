@@ -17,7 +17,7 @@ class Ocr implements ShouldQueue
 
     public function __construct(private readonly Document $document)
     {
-        $this->queue = config('enso.documents.queues.ocr');
+        $this->queue = config('liberu.documents.queues.ocr');
     }
 
     public function handle()

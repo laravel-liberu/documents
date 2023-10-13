@@ -47,6 +47,6 @@ class Document
     private function isRecent(Model $document)
     {
         return $document->created_at->diffInSeconds(Carbon::now())
-            <= (int) config('enso.documents.deletableTimeLimit');
+            <= (int) config('liberu.documents.deletableTimeLimit');
     }
 }

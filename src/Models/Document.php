@@ -42,12 +42,12 @@ class Document extends Model implements
 
     public function imageWidth(): ?int
     {
-        return Config::get('enso.documents.imageWidth');
+        return Config::get('liberu.documents.imageWidth');
     }
 
     public function imageHeight(): ?int
     {
-        return Config::get('enso.documents.imageHeight');
+        return Config::get('liberu.documents.imageHeight');
     }
 
     public static function cascadeFileDeletion(File $file): void
