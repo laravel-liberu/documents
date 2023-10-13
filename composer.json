@@ -29,14 +29,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Documents\\": "src/"
+            "LaravelLiberu\\Documents\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Documents\\AppServiceProvider",
-                "LaravelEnso\\Documents\\AuthServiceProvider"
+                "LaravelLiberu\\Documents\\AppServiceProvider",
+                "LaravelLiberu\\Documents\\AuthServiceProvider"
             ],
             "aliases": {}
         }

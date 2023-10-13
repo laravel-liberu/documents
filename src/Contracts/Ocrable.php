@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Documents\Contracts;
+namespace LaravelLiberu\Documents\Contracts;
 
 interface Ocrable
 {

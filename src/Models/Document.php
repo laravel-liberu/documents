@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Documents\Models;
+namespace LaravelLiberu\Documents\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -9,14 +9,14 @@ use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
-use LaravelEnso\Documents\Contracts\Ocrable;
-use LaravelEnso\Documents\Jobs\Ocr as Job;
-use LaravelEnso\Files\Contracts\Attachable;
-use LaravelEnso\Files\Contracts\CascadesFileDeletion;
-use LaravelEnso\Files\Contracts\OptimizesImages;
-use LaravelEnso\Files\Contracts\ResizesImages;
-use LaravelEnso\Files\Models\File;
-use LaravelEnso\Helpers\Traits\UpdatesOnTouch;
+use LaravelLiberu\Documents\Contracts\Ocrable;
+use LaravelLiberu\Documents\Jobs\Ocr as Job;
+use LaravelLiberu\Files\Contracts\Attachable;
+use LaravelLiberu\Files\Contracts\CascadesFileDeletion;
+use LaravelLiberu\Files\Contracts\OptimizesImages;
+use LaravelLiberu\Files\Contracts\ResizesImages;
+use LaravelLiberu\Files\Models\File;
+use LaravelLiberu\Helpers\Traits\UpdatesOnTouch;
 
 class Document extends Model implements
     Attachable,

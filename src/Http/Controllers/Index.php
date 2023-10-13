@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelEnso\Documents\Http\Controllers;
+namespace LaravelLiberu\Documents\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use LaravelEnso\Documents\Http\Requests\ValidateDocument;
-use LaravelEnso\Documents\Http\Resources\Document as Resource;
-use LaravelEnso\Documents\Models\Document;
+use LaravelLiberu\Documents\Http\Requests\ValidateDocument;
+use LaravelLiberu\Documents\Http\Resources\Document as Resource;
+use LaravelLiberu\Documents\Models\Document;
 
 class Index extends Controller
 {

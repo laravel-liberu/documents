@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\Documents\Http\Resources;
+namespace LaravelLiberu\Documents\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use LaravelEnso\Files\Http\Resources\File;
+use LaravelLiberu\Files\Http\Resources\File;
 
 class Document extends JsonResource
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\Documents\Traits;
+namespace LaravelLiberu\Documents\Traits;
 
 use Illuminate\Support\Facades\Config;
-use LaravelEnso\Documents\Exceptions\DocumentConflict;
-use LaravelEnso\Documents\Models\Document;
+use LaravelLiberu\Documents\Exceptions\DocumentConflict;
+use LaravelLiberu\Documents\Models\Document;
 
 trait Documentable
 {

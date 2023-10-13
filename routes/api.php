@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Documents\Http\Controllers\Destroy;
-use LaravelEnso\Documents\Http\Controllers\Index;
-use LaravelEnso\Documents\Http\Controllers\Store;
+use LaravelLiberu\Documents\Http\Controllers\Destroy;
+use LaravelLiberu\Documents\Http\Controllers\Index;
+use LaravelLiberu\Documents\Http\Controllers\Store;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/core/documents')
